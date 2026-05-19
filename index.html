@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page</title>
+
+    <style>
+        .container{
+             display: flex;
+            justify-content: space-between;
+            align-items: center; 
+            height: 100vh;
+            width: 100%;
+        }
+        .img{
+            height: 100%;
+            width: 50%;
+            background-image: url('client-login.jpg.jpeg');   
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            font-size: 24px;
+             color: white;
+             text-align: center;
+             background-size: cover;
+             background-position: center;
+             border-radius: 20px;
+             
+    
+        }
+       
+       .overlay{
+            position:absolute;
+            font-size: 14px;
+            background-color: rgba(18, 18, 18, 0.5); 
+            color:white;
+            top:20% ;
+            left:20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+            
+}
+        
+        .login{
+            flex: 1;
+            padding: 20px;
+        }
+        .signup, .agent{
+            margin-top: 10px;
+            /* margin-left: 100px; */
+        }
+
+        .login{
+            float:left;
+            display: flex;
+            flex-direction: column;
+            align-items: right;
+           
+        }
+        .forgot-password{
+            font-size: medium;
+        }
+
+        .btn{
+            background-color: blue;
+            color: white;
+            padding:10px 20px;
+            border-radius: 5px;
+            height:auto;
+            width:300px;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .bt{
+           
+            
+            padding:10px 20px;
+            border-radius: 5px;
+            height:auto;
+            width:300px;
+            border: none;
+            cursor: pointer;
+        }
+        .mail{
+            padding:8px 8px;
+            border-radius: 5px;
+            height:auto;
+            width:300px;
+            border: 1px solid #ccc;
+        }
+        .forms{
+            margin-left: 200px;
+        }
+        .svgs{
+            margin-left: 300px;
+            
+        }
+        .join{
+            font-size: 16px;
+             color: white;
+             text-align: center;
+             background-size: cover;
+             background-position: center;
+             border-radius: 20px;
+             margin-top: 100px;
+            margin-left: -230px; ;
+            
+        }
+        
+        </style>
+</head>
+<body>
+    <div  class="container"  display="flex">
+        <!-- <div class="img" display="flex">
+             <img src="client-login.jpg.jpeg" alt="side"  style="width:50%; height:auto"> -->
+            <!-- <p  class="overlay">EVEYTHING YOU NEED,<br>JUST A LOGIN AWAY</p> -->
+            <!-- <P>join the community now</P> -->
+        <!-- </div> --> 
+        <div class="img" >
+           <b>EVERYTHING YOU NEED,<br>JUST A LOGIN AWAY  </b> <br><br>
+            
+             &nbsp;<p class="join">Join the Community now</p>
+        </div>
+       
+      
+        <div class="login"  > 
+           <div class="svgs">
+            <svg
+                style="flex-shrink: 0;"
+                
+                
+                
+                width={width}
+                height={height}
+                viewBox="0 0 300 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+            <g clipPath="url(#clip0_89_865)">
+                <rect x="10px" y="1.2" width="30" height="20" fill="white" />
+                <path
+                    d="M22.1309 9.07039C22.0568 8.67879 22.0198 8.31364 22.0198 7.97496V7.60452H21.7075V7.97496C21.7023 8.31364 21.6599 8.67349 21.5805 9.07039C21.5012 9.46728 21.4006 9.81126 21.2736 10.1129L18.453 15.77H25.2479L22.4273 10.1129C22.3002 9.81126 22.1997 9.46199 22.1256 9.07039H22.1309Z"
+                    fill="url(#paint0_linear_89_865)"
+                />
+                <path
+                    d="M51.0037 10.4992V3.00053C51.0037 1.34944 49.6543 0 48.0032 0H3.00053C1.34944 0 0 1.34944 0 3.00053V10.4992C2.48721 10.4992 4.49815 12.5154 4.49815 14.9974C4.49815 17.4793 2.48192 19.4955 0 19.4955V26.9942C0 28.6453 1.34944 29.9947 3.00053 29.9947H48.0032C49.6543 29.9947 51.0037 28.6453 51.0037 26.9942V19.4955C48.5165 19.4955 46.5056 17.4793 46.5056 14.9974C46.5056 12.5154 48.5218 10.4992 51.0037 10.4992ZM29.1057 24.5493L27.0524 20.2152H16.532L14.4576 24.5493H9.05451L17.9132 5.45599H26.0522L34.5034 24.5493H29.1004H29.1057ZM40.4886 24.5493H35.3872V5.45599H40.4886V24.5493Z"
+                    fill="url(#paint1_linear_89_865)"
+                />
+                <path
+                    d="M58.2325 19.469V12.0921H55.5018V9.75304C58.2007 9.81125 58.767 9.07038 58.7352 5.5777H61.3494C61.3812 8.0067 61.0531 8.95395 59.746 9.96472L59.8042 10.0547C61.0795 9.75833 62.0321 9.66837 64.9109 9.75833V12.0974H60.8467V19.5008C60.8467 21.898 61.5294 22.4643 65.0009 22.1362V24.4752C59.7777 24.9515 58.2325 23.7343 58.2325 19.469Z"
+                    fill="blue"
+                />
+                <path d="M69.4355 10.2875H66.8213V24.5758H69.4355V10.2875Z" fill="blue" />
+                <path
+                    d="M85.8775 9.82183V30.0053H83.2633C83.2316 23.7132 83.2951 23.0041 83.6814 21.136L83.5332 21.046C82.1996 23.7185 80.2099 24.9938 77.5957 24.9938C73.5579 24.9938 70.7373 21.8769 70.7373 17.2464C70.7373 12.616 73.5579 9.46727 77.5957 9.46727C80.1781 9.46727 82.1097 10.7162 83.5015 13.4151L83.6496 13.3568C83.3215 11.9915 83.2316 11.0707 83.2633 9.82712H85.8775V9.82183ZM73.3515 17.2411C73.3515 20.448 75.3678 22.6124 78.3365 22.6124C81.3053 22.6124 83.2951 20.448 83.2951 17.2411C83.2951 14.0342 81.3053 11.8381 78.3365 11.8381C75.3678 11.8381 73.3515 14.0078 73.3515 17.2411Z"
+                    fill="blue"
+                />
+                <path
+                    d="M87.3699 20.03H89.9206C89.9788 21.7816 91.1377 22.7606 93.3656 22.7606C95.3819 22.7606 96.5143 21.9615 96.5143 20.6227C96.5143 16.913 87.5815 19.6437 87.5815 13.8225C87.5815 10.7956 89.9576 9.4567 92.9529 9.4567C96.3662 9.4567 98.5623 11.2983 98.6205 14.1189H96.128C96.0698 12.5736 94.9691 11.6264 92.9793 11.6264C90.9896 11.6264 90.127 12.489 90.127 13.7061C90.127 17.4158 99.1233 14.6851 99.1233 20.4745C99.1233 23.2634 96.9271 24.9885 93.3656 24.9885C89.8042 24.9885 87.4281 23.1205 87.3699 20.03Z"
+                    fill="blue"
+                />
+                <path
+                    d="M68.1284 8.73169C68.9993 8.73169 69.7054 8.02565 69.7054 7.1547C69.7054 6.28374 68.9993 5.5777 68.1284 5.5777C67.2574 5.5777 66.5514 6.28374 66.5514 7.1547C66.5514 8.02565 67.2574 8.73169 68.1284 8.73169Z"
+                    fill="blue"
+                />
+                </g>
+        
+                <defs>
+                 <linearGradient id="paint0_linear_89_865" x1="1.53997" y1="-7.01181" x2="46.622" y2="38.0702" gradientUnits="userSpaceOnUse">
+                <stop stopColor="#4F78FB" />
+                <stop offset="1" stopColor="#1F41F3" />
+                </linearGradient>
+                <linearGradient id="paint1_linear_89_865" x1="2.51367" y1="-7.98554" x2="47.5957" y2="37.0965" gradientUnits="userSpaceOnUse">
+                <stop stopColor="#4F78FB" />
+                <stop offset="1" stopColor="#1F41F3" />
+                </linearGradient>
+                <clipPath id="clip0_89_865">
+                <rect width="20px" height="30px" fill="white" />
+                </clipPath>
+                </defs>
+        
+            </svg> <br>
+        <div >
+           <b>Services <br>Management<br></b> 
+        </div>
+        </div>
+        <div class="forms">
+        <form  >
+            <label >Email</label><br>
+
+            <input  class="mail" type="email" placeholder="Email" ><BR><br>
+                <button  width="300px" class = "btn" type="submit" >Sign in</button><br><br>
+
+
+
+                <div >
+                    <div>----------------------------or--------------------------</div>
+                </div>
+
+                <p class="forgot-password">Forgot password?</p>
+            <div class= "signup">
+            
+                    <button class="bt" >New user?
+                        <a href="#" width="100px">  Sign up  </a><br>
+                    </button>
+            </div>
+            <div agent="agent" ><br>
+                    <button class="bt">Are you an agent?
+                    <a href="#">Log in</a><button>
+            </div>
+        </div>
+        </form>  
+    </div> 
+
+</div>
+
+    
+</body>
+</html>
